@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  background-color: lightblue; 
+  min-height: 100vh;
+}
+
+h3 {
+  margin-bottom: 5px;
+  color: black; 
+}
+
+p {
+  margin-top: 0;
+  font-size: 13px;
+  color: gray;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 2px solid #cecece;
+  resize: none;
+  background-color: #fff;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+.counter {
+  margin-top: 8px;
+  font-size: 14px;
+  text-align: right;
+  color: black;
+}
+
+.warning {
+  color: red; 
+  margin-top: 5px;
+  font-size: 20px;
+  display: none;
+}
